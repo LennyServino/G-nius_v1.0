@@ -241,3 +241,26 @@ a{
         text-align: justify;
     }
 }
+@media all and (max-width: 445px){
+    .aside{
+        flex-direction: column;
+    }
+    h2{
+        font-size: 18px;
+        margin-bottom: 7px;
+    }
+    .social img{
+        height: 30px;
+        margin-top: 12px;
+    }
+    .social a{
+        padding: 0 40px;
+    }
+    .nav a{
+        padding: 0 10px;
+    }
+    .texto-principal{
+        text-align: justify;
+    }
+}
+
