@@ -241,7 +241,7 @@ a{
         text-align: justify;
     }
 }
-@media all and (max-width: 445px){
+@media all and (max-width: 450px){
     .aside{
         flex-direction: column;
     }
