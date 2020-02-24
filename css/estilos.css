@@ -50,8 +50,7 @@ a{
                 }
             .nav{
                 
-                flex: 1 1 auto;
-               
+                flex: 1 1 auto;     
             }
                 .nav a{
                     color: #fff;
@@ -76,7 +75,7 @@ a{
                         color: #343434;
                     }
         .texto-principal{
-           background: rgba(255, 255, 255, .5);
+           background: rgba(255, 255, 255, .6);
            height: 580px;
            display: flex;
            align-items: center;     
@@ -100,6 +99,7 @@ a{
         flex: 2 1 auto;
         display: flex;
         flex-flow: row wrap;
+        margin-right: 20px;
     }
         .article{
             flex: 1 1 40%;
@@ -117,7 +117,7 @@ a{
             color: #fff;
             font-size: 13px;
             padding: 10px 10px;
-            background: #000;
+            background: #6d1d3c;
             margin: 10px 0;
             display: inline-block;
         }
@@ -153,7 +153,7 @@ a{
     .aside{
         /*background: #c02739;*/
         flex: 1 1 auto;
-        margin: 10px 5px 10px 0;
+        margin: 10px 0px 10px 0;
     }
     .aside img{
         width: 100%;
@@ -165,9 +165,9 @@ a{
         padding: 10px;
         text-transform: uppercase;
     }
-        /*.publicidad{
-            /*background: #40e0d0;
-        }*/
+        .eventos{
+            margin-bottom: 20px;
+        }
 .footer{
     background: #000;
     display: flex;
@@ -222,5 +222,22 @@ a{
 @media all and (max-width: 400px){
     .aside{
         flex-direction: column;
+    }
+    h2{
+        font-size: 18px;
+        margin-bottom: 7px;
+    }
+    .social img{
+        height: 30px;
+        margin-top: 12px;
+    }
+    .social a{
+        padding: 0 40px;
+    }
+    .nav a{
+        padding: 0 10px;
+    }
+    .texto-principal{
+        text-align: justify;
     }
 }
